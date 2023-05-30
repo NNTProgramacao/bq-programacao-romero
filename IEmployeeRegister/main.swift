@@ -2,10 +2,11 @@
 //  main.swift
 //  IEmployeeRegister
 //
-//  Created by Projeto Apraxia on 17/05/23.
-//
+//  Created by Romero Mendonça on 17/05/23.
+
 
 import Foundation
 
-print("Hello, World!")
-
+let employeeRepository: EmployeeRepository = EmployeeRepositoryImp()
+let application: IEmployeeRegisterApplication = IEmployeeRegisterApplication(repository: employeeRepository)
+application.start();

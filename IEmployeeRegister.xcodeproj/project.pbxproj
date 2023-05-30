@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820E96F22A24D1D60049BEF9 /* employee_repository_imp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E96F12A24D1D60049BEF9 /* employee_repository_imp.swift */; };
+		820E96F52A2532350049BEF9 /* app_error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820E96F42A2532350049BEF9 /* app_error.swift */; };
+		822ADD762A2653FC004DFE34 /* controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD752A2653FC004DFE34 /* controller.swift */; };
+		822ADD782A26544F004DFE34 /* create_employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD772A26544F004DFE34 /* create_employee.swift */; };
+		822ADD7A2A26545F004DFE34 /* find_by_name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD792A26545F004DFE34 /* find_by_name.swift */; };
+		822ADD7C2A26546C004DFE34 /* delete_employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD7B2A26546C004DFE34 /* delete_employee.swift */; };
+		822ADD7E2A265480004DFE34 /* find_all.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ADD7D2A265480004DFE34 /* find_all.swift */; };
 		82C2E6042A1573BF00F54CF4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C2E6032A1573BF00F54CF4 /* main.swift */; };
+		82FF66A72A1D0B070048DF68 /* employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF66A62A1D0B070048DF68 /* employee.swift */; };
+		82FF66A92A1D0BEB0048DF68 /* employee_repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF66A82A1D0BEB0048DF68 /* employee_repository.swift */; };
+		82FF66AC2A1D134A0048DF68 /* interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF66AB2A1D134A0048DF68 /* interface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		820E96F12A24D1D60049BEF9 /* employee_repository_imp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employee_repository_imp.swift; sourceTree = "<group>"; };
+		820E96F42A2532350049BEF9 /* app_error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_error.swift; sourceTree = "<group>"; };
+		822ADD752A2653FC004DFE34 /* controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controller.swift; sourceTree = "<group>"; };
+		822ADD772A26544F004DFE34 /* create_employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_employee.swift; sourceTree = "<group>"; };
+		822ADD792A26545F004DFE34 /* find_by_name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_by_name.swift; sourceTree = "<group>"; };
+		822ADD7B2A26546C004DFE34 /* delete_employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delete_employee.swift; sourceTree = "<group>"; };
+		822ADD7D2A265480004DFE34 /* find_all.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_all.swift; sourceTree = "<group>"; };
 		82C2E6002A1573BF00F54CF4 /* IEmployeeRegister */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IEmployeeRegister; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C2E6032A1573BF00F54CF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		82FF66A62A1D0B070048DF68 /* employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employee.swift; sourceTree = "<group>"; };
+		82FF66A82A1D0BEB0048DF68 /* employee_repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employee_repository.swift; sourceTree = "<group>"; };
+		82FF66AB2A1D134A0048DF68 /* interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820E96F32A2532220049BEF9 /* errors */ = {
+			isa = PBXGroup;
+			children = (
+				820E96F42A2532350049BEF9 /* app_error.swift */,
+			);
+			path = errors;
+			sourceTree = "<group>";
+		};
+		822ADD742A2653A1004DFE34 /* controller_operations */ = {
+			isa = PBXGroup;
+			children = (
+				822ADD772A26544F004DFE34 /* create_employee.swift */,
+				822ADD792A26545F004DFE34 /* find_by_name.swift */,
+				822ADD7B2A26546C004DFE34 /* delete_employee.swift */,
+				822ADD7D2A265480004DFE34 /* find_all.swift */,
+			);
+			path = controller_operations;
+			sourceTree = "<group>";
+		};
+		827AA3242A1C4CA60056E618 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				82FF66AB2A1D134A0048DF68 /* interface.swift */,
+				822ADD752A2653FC004DFE34 /* controller.swift */,
+				822ADD742A2653A1004DFE34 /* controller_operations */,
+				820E96F32A2532220049BEF9 /* errors */,
+				827AA3272A1C4CE40056E618 /* entities */,
+				827AA3262A1C4CCC0056E618 /* repositories */,
+				827AA3252A1C4CB10056E618 /* protocols */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		827AA3252A1C4CB10056E618 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				82FF66A82A1D0BEB0048DF68 /* employee_repository.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		827AA3262A1C4CCC0056E618 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				820E96F12A24D1D60049BEF9 /* employee_repository_imp.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		827AA3272A1C4CE40056E618 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				82FF66A62A1D0B070048DF68 /* employee.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
 		82C2E5F72A1573BF00F54CF4 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +134,7 @@
 		82C2E6022A1573BF00F54CF4 /* IEmployeeRegister */ = {
 			isa = PBXGroup;
 			children = (
+				827AA3242A1C4CA60056E618 /* src */,
 				82C2E6032A1573BF00F54CF4 /* main.swift */,
 			);
 			path = IEmployeeRegister;
@@ -120,7 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820E96F22A24D1D60049BEF9 /* employee_repository_imp.swift in Sources */,
+				820E96F52A2532350049BEF9 /* app_error.swift in Sources */,
 				82C2E6042A1573BF00F54CF4 /* main.swift in Sources */,
+				822ADD7C2A26546C004DFE34 /* delete_employee.swift in Sources */,
+				82FF66AC2A1D134A0048DF68 /* interface.swift in Sources */,
+				82FF66A72A1D0B070048DF68 /* employee.swift in Sources */,
+				822ADD7A2A26545F004DFE34 /* find_by_name.swift in Sources */,
+				822ADD782A26544F004DFE34 /* create_employee.swift in Sources */,
+				822ADD762A2653FC004DFE34 /* controller.swift in Sources */,
+				822ADD7E2A265480004DFE34 /* find_all.swift in Sources */,
+				82FF66A92A1D0BEB0048DF68 /* employee_repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
